@@ -24,14 +24,37 @@ This field has really developed in the past 15 years due to the efforts of genom
 
 To archive accumulated knowledge and to provide scientists with easy access to biological data.
 
-2. **What is a database?**
+2. **What is a database? What are the Data structures: Flat file databses vs Rational databases?**
 
 How can we store the files in databases? 
+- **Flat File Format:**
 
 One type is Flat File format with fields separated by some delimiters. Here is an example.
 
 ![img1](flat_file.png) 
 
-3. **What are the Data structures: Flat file databses vs Rational databases?**
-4. **Accession numbers and identifiers (genebank flat file format)**
-5. **A pratical example of utility - NCBI Search (GQuery/Entrez)**.
+There is a problem with flat file format database, as there are some retundencies in the file. Same information is repeated many times.
+
+- **Relational Databases**
+
+Relational databases consists of relations (tables) containing attributes (columns or fileds).\
+Each row in a table is known as tupple or records similar to pythons. 
+> _If you are interested in learning Data Science with Python ( a 40 days course) in urdu/Hindi language you can browse follwoing playlist ([Python ka Chilla with Baba Aammar](https://www.youtube.com/watch?v=QvPekMN4F0w&list=PL9XvIvvVL50HVsu-Ao8NBr0UJSO8O6lBI)_)
+
+Here is another detailed example from Plant Bioinformatics Course on Coursera
+![img2](flat_file2.png)
+
+Foriegn key is used to link tables with similar information of one or more columns. Which is actually the primary key of a column of contacts in the second table.
+
+SQL (Structured Querry Language) is an example of querry database and we will cover this in a separate crash course in urdu/hindi language, link is coming soon.
+
+> **Accession numbers and identifiers (genebank flat file format)**\
+> Many of the biological databases (Genebank, UNIPROT etc.) have several ways to identify a specific given entry:
+> - Identifier
+> - Accession code (or a specific number)
+
+Here is the detailed version of that:
+![img3](img3.png)
+ 
+
+1. **A pratical example of utility - NCBI Search (GQuery/Entrez)**.

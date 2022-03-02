@@ -55,6 +55,55 @@ SQL (Structured Querry Language) is an example of querry database and we will co
 
 Here is the detailed version of that:
 ![img3](resources/img3.png)
- 
 
-1. **A pratical example of utility - NCBI Search (GQuery/Entrez)**.
+Another popular type is the accession number or accession code:
+> **Accession number or accession code:**\
+> An accession code (or number) is a number (with a few characters in front) that uniquely identifies an entry.\
+> It is often assigned arbitrarily. For example, the
+accession code for ADH6_HUMAN in UNIPROT is P28332.In the case of GenBank, the accession code for the human ADH6 gene
+sequence is AH001409.
+
+**Versioning of sequences GenBank**:\
+Records typically contain the Accession.Version identifier, such as **AHO01409.2**, in the VERSION Iine of the record. This identifier used to be mapped to its corresponding GI* number, which was like the "primary key" of GenBank.
+
+>- To specify a sequence exactly in GenBank, use its _**Accession.Version**_.
+> - To retrieve the most up-to-date sequence, use the accession number without
+version: the most up-to-date sequence will be retrieved automatically. 
+
+The GI (Genlnfo ldentifier) system was deprecated as of 2016 use Accession.Version only to
+retrieve a specific sequence - but you will still see Gls in GenBank records!
+
+> **A pratical example of utility - NCBI Search (GQuery/Entrez)**\
+> Human alcohol dehydrogenase VI gene to find with the following [link](https://www.ncbi.nlm.nih.gov/nuccore/AH001409)
+
+**After going to the link following information will appear:**
+![img4](resources/img4.png)
+![img5](resources/img5.png)
+![img6](resources/img6.png)
+![img7](resources/img7.png)
+
+> _**Note: in some records we may see a CDS (Coding sequence) feature followed by the sequence itself as following:**_
+
+
+![img8](resources/img8.png)
+![img9](resources/img9.png)
+
+---
+<span style="color:#1ba69a">**From 1982 to February 2020, GenBank statistics can be found on the [this link](https://www.ncbi.nlm.nih.gov/genbank/statistics/)**</span>
+
+Currently it is showing something like this:
+![img10](resources/img10.png)
+
+<span style="color:#1ba69a">### **How to Search Sequences:**</span>
+
+Searching GenBank or other sequencing databases (DBs) can be done using:
+1. keywords
+2. using sequence similarity using [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+
+<span style="color:Red">**Google and other search engines can not search sequence similarities better than blasting, because tehse search engines can not run partial matches to similar sequence with gaps and they also don't which amino acids have similar properties.**</span>
+
+<!-- 
+#this is how you can add colors to text
+<span style="color:blue">Your text here</span>
+
+ -->

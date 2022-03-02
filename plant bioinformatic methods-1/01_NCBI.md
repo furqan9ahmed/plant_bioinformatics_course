@@ -102,8 +102,35 @@ Searching GenBank or other sequencing databases (DBs) can be done using:
 
 <span style="color:Red">**Google and other search engines can not search sequence similarities better than blasting, because tehse search engines can not run partial matches to similar sequence with gaps and they also don't which amino acids have similar properties.**</span>
 
+Here's you can use [blast in NCBI](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
+![img11](resources/img11.png)
+
 <!-- 
-#this is how you can add colors to text
+#this is how you can add colors to text but it will not work in .md files on github doc
+
 <span style="color:blue">Your text here</span>
 
  -->
+
+<span style="color:blue">**Important Terms and Definitions:**</span>
+
+Please google these and clear your concepts
+1. Homologs
+2. Paralogs
+3. Orthologs
+4. Speciation
+5. Gene duplication
+6. SNPs
+
+### **Searching across DBs: the NCBI Search tool**
+
+[NCBI Seach tool](https://www.ncbi.nlm.nih.gov/search/) (previously known as ENtrez/GQuery) is one of the best tools to search DBs. NCBI Search provides links between many of the DBs at NCBI. 
+
+**Example:**
+
+Identify the SNPs which potentially cause early onset breast cancer, and design oligos to PCR them in samples of human genomic DNA for sequencing.\
+We can use OMIM (Online Mendelian Inheritance in Man) database from the list of the DBs on the left side of search bar.\
+OMIM has links to everything that is known about a given disease across the various DBs at NCBI.
+
+![img12](resources/img12.png)
+

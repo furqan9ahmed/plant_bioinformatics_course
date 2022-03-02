@@ -31,7 +31,7 @@ How can we store the files in databases?
 
 One type is Flat File format with fields separated by some delimiters. Here is an example.
 
-![img1](flat_file.png) 
+![img1](resources/flat_file.png) 
 
 There is a problem with flat file format database, as there are some retundencies in the file. Same information is repeated many times.
 
@@ -42,7 +42,7 @@ Each row in a table is known as tupple or records similar to pythons.
 > _If you are interested in learning Data Science with Python ( a 40 days course) in urdu/Hindi language you can browse follwoing playlist ([Python ka Chilla with Baba Aammar](https://www.youtube.com/watch?v=QvPekMN4F0w&list=PL9XvIvvVL50HVsu-Ao8NBr0UJSO8O6lBI)_)
 
 Here is another detailed example from Plant Bioinformatics Course on Coursera
-![img2](flat_file2.png)
+![img2](resources/flat_file2.png)
 
 Foriegn key is used to link tables with similar information of one or more columns. Which is actually the primary key of a column of contacts in the second table.
 
@@ -54,7 +54,7 @@ SQL (Structured Querry Language) is an example of querry database and we will co
 > - Accession code (or a specific number)
 
 Here is the detailed version of that:
-![img3](img3.png)
+![img3](resources/img3.png)
  
 
 1. **A pratical example of utility - NCBI Search (GQuery/Entrez)**.

@@ -20,8 +20,18 @@ This field has really developed in the past 15 years due to the efforts of genom
 
 > ## Biological databases
 > The other thing that bioinformatics is about is biological databases, how we can store these biological data
-1. Why databases are used?
-2. What is a database?
-3. What are the Data structures: Flat file databses vs Rational databases?
-4. Accession numbers and identifiers (genebank flat file format)
-5. A pratical example of utility - NCBI Search (GQuery/Entrez).
+1. **Why databases are used?**
+
+To archive accumulated knowledge and to provide scientists with easy access to biological data.
+
+2. **What is a database?**
+
+How can we store the files in databases? 
+
+One type is Flat File format with fields separated by some delimiters. Here is an example.
+
+![img1](flat_file.png) 
+
+3. **What are the Data structures: Flat file databses vs Rational databases?**
+4. **Accession numbers and identifiers (genebank flat file format)**
+5. **A pratical example of utility - NCBI Search (GQuery/Entrez)**.

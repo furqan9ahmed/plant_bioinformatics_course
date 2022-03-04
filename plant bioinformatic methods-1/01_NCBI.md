@@ -181,3 +181,57 @@ Here's what it looks like:
 ### **Example:**
 
 Usually when searching these databases, you have either a region of DNA or a protein (or protein function) of interest. For this lab you’ll be using a gene from **_Arabidopsis thaliana_**, a small flowering plant that is like the fruit fly of the plant world as it has a comparatively rapid life cycle and requires little space to grow. The protein product of this gene is recorded under _**accession number NP_001318308**_, and it is an E3 ligase, involved in ubiquitination of proteins, which is a signal for their degradation.
+
+Go to the search tool and try these keywords and specifically record "Proteins" records or hits with each of them.
+1. gene keywords\
+    e.g. _**ubiquitin-protein ligase**_
+2. gene keyword AND organism\
+    e.g. _**ubiquitin-protein ligase AND Arabidopsis thaliana**_
+3. gene keyword [PROT] AND organism [ORGN]\
+    e.g. _**ubiquitin-protein ligase [PROT] AND Arabidopsis thaliana [ORGN]**_
+4. accession or GI number\
+    e.g. _**NP_001318308**_
+
+**That narrowed things down significantly!**\
+Note that using parentheses can be very helpful in making sure you get exactly what you want. For example: 
+- _**SMC AND (yeast [ORGN] OR Arabidopsis [ORGN])**_\
+is a very different search than 
+- _**SMC AND yeast [ORGN] OR Arabidopsis [ORGN]**_
+- Also, using quotation marks can also dramatically affect your search _**(i.e.: 16s rRNA vs. “16s rRNA”).**_
+
+_**Note** that using parentheses can be very helpful in making sure you get exactly what you want.\
+**Finally**, always capitalize the Boolean operators such as AND / OR / NOT. Ultimately, the most specific search items you can use are accession numbers._
+
+Here are the results of querries:
+
+
+![img17](resources/img17.png)
+
+![img18](resources/img18.png)
+
+![img19](resources/img19.png)
+
+![img20](resources/img20.png)
+
+Few important things to remember are shown here:
+
+![img21](resources/img21.png)
+![img22](resources/img22.png)
+
+
+On the otehr hand Box-2 will help you to find the updated information in NCBI, here you go:
+![img23](resources/img23.png)
+
+
+- **Here is the [link to NCBI Help Manual](https://www.ncbi.nlm.nih.gov/books/NBK3831/)**
+- **Here is the [link to NCBI Youtube Channel](https://www.youtube.com/channel/UC0l4yG9XqYtrR4E9lpzk7Ow)**
+- Here is the link to find out the [structure of GenBank file on NCBI](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html). This will enable us to understand the abbreviations used in NABI result in the form of GenBank file.
+
+
+Go back to the protein viewer and click CDS:
+![img20](resources/img20.png)
+![img24](resources/img24.png)
+
+
+
+

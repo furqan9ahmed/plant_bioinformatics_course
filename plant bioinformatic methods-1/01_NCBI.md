@@ -133,4 +133,51 @@ We can use OMIM (Online Mendelian Inheritance in Man) database from the list of 
 OMIM has links to everything that is known about a given disease across the various DBs at NCBI.
 
 ![img12](resources/img12.png)
+Click on **"Gene Summaries"**
 
+![img13](resources/img13.png)
+
+We can find SNPs use a tool called primer3 to design a primer of that specific SNP, to find out the variation in the person genomic DNA sample.
+This process will take less than 15 minutes to find a solution and methodology to a problem.\
+This one set of information will help us to find the incredible set of information stored in NCBI.
+
+In the upcoming lecture, we will be talking about blast.
+
+We can also use [NCBI's variation viewer](https://www.ncbi.nlm.nih.gov/variation/view) to find non-synonymous SNPs information. 
+
+![img14](resources/img14.png)
+
+
+---
+
+# **Pre-requisists to search on NCBI:**
+
+The National Center for Biotechnology Information (NCBI)maintained by the US National Library of Medicine and National Institutes of Health is one of the world’s most important resources and repositories for biological data.
+
+Entire genomes, from viruses to humans, are compiled, organized, and cross-referenced within these networks, such that surfing the genome can be almost as easy as surfing the web.
+
+But you must know the following before starting your search on NCBI: 
+1. What you are looking _**for**_?
+2. What you are looking _**at**_?
+
+to get out of these DBs.\
+**We will learn these in the following section**
+
+Normally google and other search engines do not index database driven websites, which is why it can not be used for searching the information stored in databases such as NCBI.
+
+Google can not handle protein searching as well as it can not handle sequence searching.
+
+We will go step by step to explore [NCBI website](https://www.ncbi.nlm.nih.gov/) which is constantly being updated.
+
+We can read the about NCBi and Search via _**search tool of NCBI**_ (formerly known as GQuery or Entrez) in the search bar to go to the specific topic as shown here:
+
+![img15](resources/img15.png)
+
+When you go to the searchbar and type **_Bacteria_** it will give you a whole list of hits in each section. This search will give us millions of hits which is not specific for research purposes. We should narrow it down.
+Here's what it looks like:
+
+![img16](resources/img16.png)
+
+### **Example:**
+
+Usually when searching these databases, you have either a region of DNA or a protein (or protein function) of interest. For this lab you’ll be using a gene from **_Arabidopsis thaliana_**, a small flowering plant that is like the fruit fly of the plant world as it has a comparatively rapid life cycle and requires little space to grow. The protein product of this gene is recorded under _**accession number NP_001318308**_, and it is an E3 ligase, involved in ubiquitination of proteins, which is a signal for their degradation.

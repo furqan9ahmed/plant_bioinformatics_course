@@ -230,7 +230,56 @@ On the otehr hand Box-2 will help you to find the updated information in NCBI, h
 
 Go back to the protein viewer and click CDS:
 ![img20](resources/img20.png)
+
 ![img24](resources/img24.png)
+
+
+>### **Example and practice:**
+>Select _**Gene**_ from the _**Related Information menu**_. This is a great starter resource at NCBI. Scroll through the different sections. Use them to answer the following questions.
+>1. Where is your gene’s location in the genome? (Tip: hover with your cursor over the green bars in the “Genomic regions, transcripts, and products” section; the green bars represent the gene in the sequence viewer)
+>2. How many exons do you see in this gene? Tip: how many green boxes are there?
+>3. What are the names of the genes surrounding it (i.e. what is its **“Genomic context”**)?
+>4. Does it have any conserved domains? What are they called? (Tip: use the **“Related Information”** link to Conserved Domains on the right of the Gene page)
+>5. After exploring conserved domains go back to the Gene page. What **biological process (Gene Ontology terms)** is this gene involved with (scroll down!)?
+
+Here is the [link to the gene page](https://www.ncbi.nlm.nih.gov/gene?LinkName=protein_gene&from_uid=1063699357), At2g28830 (also known as PUB12). Explore the possibilities to find other parameters as well.
+
+_**Additional Links:**_\
+On the Gene page, there are also Additional links to examine a gene’s structure, function and phylogenetic relationships further. 
+
+![img25](resources/img25.png)
+try other links as well.
+
+![img26](resources/img26.png)
+
+**“RefSeq RNA”** will give us mRNA gene expression data, where the legnth of mRNA will be different than gene length.
+
+Why is the length of the mRNA different from the value you can calculate from the start and stop positions in Question 9a?
+
+![img27](resources/img27.png)
+
+---
+
+# **Basic Blast _(blastn)_**
+
+_Basic Local Alignment and Search Tool (BLAST; Altschul et al., 1997)_
+>One of the most important bioinformatic strategies used for the functional annotation of genes and genomes is to predict the function of uncharacterized genes or proteins based on their similarity to sequences with better functional annotations. BLAST is perhaps the single most important tool for finding database sequences that are similar to a query sequence of interest. 
+
+The Basic Local Alignment and Search Tool (BLAST; Altschul et al., 1997) is a very powerful approach to identifying database sequences that share local similarity to a query sequence (see below for definitions). There is a very important chain of assumptions used in biological research that is generally followed when using BLAST:
+
+- Homologous genes share sequence similarity
+  - Orthologous genes have the highest similarity among multiple species
+    - Orthologous genes most likely have similar functions
+      - Consequently, sequences that are most similar between multiple species share similar functions 
+
+Note, it is very important to understand that these are only assumptions, and there are many reasons and instances where these assumptions prove to be false. Nevertheless, they are a reasonable starting place.
+
+**Important Definitions:**
+![img28](resources/img28.png)
+
+
+
+
 
 
 

@@ -278,6 +278,9 @@ Note, it is very important to understand that these are only assumptions, and th
 ![img28](resources/img28.png)
 
 
+# Change in the account
+
+
 
 
 
